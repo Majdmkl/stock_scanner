@@ -121,9 +121,9 @@
   "AXON:fvg": {
     "ticker": "AXON",
     "kind": "fvg",
-    "level_low": 597.6799926757812,
-    "level_high": 617.8699951171875,
-    "sent_at": "2026-08-25T18:39:39"
+    "level_low": 612.2050170898438,
+    "level_high": 615.260009765625,
+    "sent_at": "2026-08-25T19:32:35"
   },
   "BKNG:fvg": {
     "ticker": "BKNG",
@@ -632,16 +632,16 @@
   "TRI:fvg": {
     "ticker": "TRI",
     "kind": "fvg",
-    "level_low": 102.41999816894531,
-    "level_high": 105.5199966430664,
-    "sent_at": "2026-08-25T17:32:51"
+    "level_low": 105.58000183105469,
+    "level_high": 105.73999786376953,
+    "sent_at": "2026-08-25T19:32:46"
   },
   "TSLA:demand_zone": {
     "ticker": "TSLA",
     "kind": "demand_zone",
-    "level_low": 331.1199951171875,
+    "level_low": 338.9599914550781,
     "level_high": 351.6199951171875,
-    "sent_at": "2026-08-25T14:35:16"
+    "sent_at": "2026-08-25T19:32:48"
   },
   "TTWO:fvg": {
     "ticker": "TTWO",
@@ -828,9 +828,9 @@
   "LITE:demand_zone": {
     "ticker": "LITE",
     "kind": "demand_zone",
-    "level_low": 650.8200073242188,
-    "level_high": 859.8800048828125,
-    "sent_at": "2026-08-25T15:43:05"
+    "level_low": 815.030029296875,
+    "level_high": 878.7376708984375,
+    "sent_at": "2026-08-25T19:32:42"
   },
   "LRCX:fvg": {
     "ticker": "LRCX",
@@ -1020,5 +1020,26 @@
     "level_low": 431.4800109863281,
     "level_high": 448.45001220703125,
     "sent_at": "2026-08-25T18:39:54"
+  },
+  "FANG:fvg": {
+    "ticker": "FANG",
+    "kind": "fvg",
+    "level_low": 199.91000366210938,
+    "level_high": 201.83999633789062,
+    "sent_at": "2026-08-25T19:32:38"
+  },
+  "KDP:demand_zone": {
+    "ticker": "KDP",
+    "kind": "demand_zone",
+    "level_low": 29.830699920654297,
+    "level_high": 31.7549991607666,
+    "sent_at": "2026-08-25T19:32:40"
+  },
+  "MRVL:demand_zone": {
+    "ticker": "MRVL",
+    "kind": "demand_zone",
+    "level_low": 220.42010498046875,
+    "level_high": 238.8000030517578,
+    "sent_at": "2026-08-25T19:32:44"
   }
 }
