@@ -1,0 +1,87 @@
+name: Aktiescanner
+
+# ---------------------------------------------------------------------------
+# Triggers
+# ---------------------------------------------------------------------------
+on:
+  schedule:
+    # Varje hel timme 13:00–22:00 UTC måndag–fredag.
+    # Det täcker pre-market (ca 09:00 ET) till efter after-hours (ca 18:00 ET)
+    # oavsett om USA kör EDT (UTC-4) eller EST (UTC-5).
+    - cron: "0 13-22 * * 1-5"
+
+  # Manuell trigger: Actions-fliken -> "Aktiescanner" -> "Run workflow"
+  workflow_dispatch:
+
+# ---------------------------------------------------------------------------
+# Rättigheter
+# ---------------------------------------------------------------------------
+# contents: write krävs för att kunna committa och pusha tillbaka
+# notification_state.json och nasdaq100_cache.json med GITHUB_TOKEN.
+# Ingen extra PAT (Personal Access Token) behövs.
+permissions:
+  contents: write
+
+# ---------------------------------------------------------------------------
+jobs:
+# ---------------------------------------------------------------------------
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checka ut hela repot (inklusive tillståndsfiler om de redan finns)
+      - name: Checka ut repot
+        uses: actions/checkout@v4
+
+      # 2. Sätt upp Python med inbyggd pip-cache för snabbare starter
+      - name: Sätt upp Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # 3. Installera projektets beroenden
+      - name: Installera beroenden
+        run: pip install -r requirements.txt
+
+      # 4. Kör scannern
+      #    TELEGRAM_BOT_TOKEN och TELEGRAM_CHAT_ID hämtas från GitHub Secrets
+      #    (Settings -> Secrets and variables -> Actions).
+      #    config.py läser dem via os.getenv() - ingen .env-fil behövs.
+      - name: Kör scannern
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py
+
+      # 5. Committa tillbaka tillståndsfiler om de ändrats.
+      #
+      #    Varför vi gör detta: varje GitHub Actions-körning startar på en
+      #    helt ny, tom virtuell maskin. Utan denna commit-back skulle
+      #    notification_state.json (cooldown-historiken) och
+      #    nasdaq100_cache.json (cachad tickerlista) försvinna efter varje
+      #    körning och all cooldown-logik bli meningslös.
+      #
+      #    [skip ci] i commit-meddelandet förhindrar att commit-backen
+      #    triggar en ny workflow-körning i onödan.
+      #
+      #    Sidoeffekt: dessa commits håller repot aktivt och förhindrar att
+      #    GitHub automatiskt inaktiverar schemalagda workflows efter 60
+      #    dagars inaktivitet.
+      - name: Committa tillbaka tillståndsfiler om de ändrats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Lägg till tillståndsfilerna om de finns (de kanske inte skapas
+          # om inga setups hittades vid körningen)
+          [ -f notification_state.json ] && git add notification_state.json
+          [ -f nasdaq100_cache.json ]    && git add nasdaq100_cache.json
+
+          # Committa bara om något faktiskt ändrats — undviker tomma commits
+          if git diff --staged --quiet; then
+            echo "Inga ändringar i tillståndsfilerna, hoppar över commit."
+          else
+            git commit -m "chore: uppdatera tillståndsfiler [skip ci]"
+            git push
+          fi

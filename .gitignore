@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtuell miljö
+venv/
+.venv/
+env/
+
+# Hemligheter - ska ALDRIG committas
+# .env.example committas avsiktligt - det är en mall, inte riktiga hemligheter
+.env
+
+# Genererade grafbilder - skapas på nytt vid varje körning
+charts/*.png
+
+# IDE-filer
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Tillståndsfiler som INTE ignoreras (committas tillbaka av GitHub Actions
+# så att cooldown-historik och ticker-cache överlever mellan körningar):
+#   notification_state.json
+#   nasdaq100_cache.json
+# ---------------------------------------------------------------------------
