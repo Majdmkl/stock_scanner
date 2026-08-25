@@ -93,9 +93,9 @@
   "APP:fvg": {
     "ticker": "APP",
     "kind": "fvg",
-    "level_low": 301.79998779296875,
-    "level_high": 304.3800048828125,
-    "sent_at": "2026-08-25T17:32:30"
+    "level_low": 306.0400085449219,
+    "level_high": 311.2300109863281,
+    "sent_at": "2026-08-25T18:39:37"
   },
   "ARM:fvg": {
     "ticker": "ARM",
@@ -121,9 +121,9 @@
   "AXON:fvg": {
     "ticker": "AXON",
     "kind": "fvg",
-    "level_low": 612.9675903320312,
-    "level_high": 615.375,
-    "sent_at": "2026-08-25T17:32:32"
+    "level_low": 597.6799926757812,
+    "level_high": 617.8699951171875,
+    "sent_at": "2026-08-25T18:39:39"
   },
   "BKNG:fvg": {
     "ticker": "BKNG",
@@ -205,9 +205,9 @@
   "CSX:fvg": {
     "ticker": "CSX",
     "kind": "fvg",
-    "level_low": 50.20000076293945,
-    "level_high": 52.59000015258789,
-    "sent_at": "2026-08-25T17:32:40"
+    "level_low": 51.54999923706055,
+    "level_high": 51.66999816894531,
+    "sent_at": "2026-08-25T18:39:41"
   },
   "CTAS:fvg": {
     "ticker": "CTAS",
@@ -443,9 +443,9 @@
   "MSTR:fvg": {
     "ticker": "MSTR",
     "kind": "fvg",
-    "level_low": 126.0999984741211,
-    "level_high": 127.16000366210938,
-    "sent_at": "2026-08-25T16:38:30"
+    "level_low": 123.45999908447266,
+    "level_high": 124.6709976196289,
+    "sent_at": "2026-08-25T18:39:48"
   },
   "MU:trendline": {
     "ticker": "MU",
@@ -978,5 +978,47 @@
     "level_low": 172.7098835536412,
     "level_high": 172.7098835536412,
     "sent_at": "2026-08-25T17:32:48"
+  },
+  "AMD:fvg": {
+    "ticker": "AMD",
+    "kind": "fvg",
+    "level_low": 475.9800109863281,
+    "level_high": 486.1000061035156,
+    "sent_at": "2026-08-25T18:39:34"
+  },
+  "DASH:trendline": {
+    "ticker": "DASH",
+    "kind": "trendline",
+    "level_low": 232.00713893345426,
+    "level_high": 232.00713893345426,
+    "sent_at": "2026-08-25T18:39:43"
+  },
+  "GOOG:demand_zone": {
+    "ticker": "GOOG",
+    "kind": "demand_zone",
+    "level_low": 329.82000732421875,
+    "level_high": 341.9800109863281,
+    "sent_at": "2026-08-25T18:39:45"
+  },
+  "PANW:demand_zone": {
+    "ticker": "PANW",
+    "kind": "demand_zone",
+    "level_low": 308.5400085449219,
+    "level_high": 336.57000732421875,
+    "sent_at": "2026-08-25T18:39:50"
+  },
+  "TSLA:trendline": {
+    "ticker": "TSLA",
+    "kind": "trendline",
+    "level_low": 351.8766835530599,
+    "level_high": 351.8766835530599,
+    "sent_at": "2026-08-25T18:39:52"
+  },
+  "WDC:demand_zone": {
+    "ticker": "WDC",
+    "kind": "demand_zone",
+    "level_low": 431.4800109863281,
+    "level_high": 448.45001220703125,
+    "sent_at": "2026-08-25T18:39:54"
   }
 }
