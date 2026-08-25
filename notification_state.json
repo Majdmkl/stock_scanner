@@ -51,16 +51,16 @@
   "ALAB:fvg": {
     "ticker": "ALAB",
     "kind": "fvg",
-    "level_low": 285.3999938964844,
-    "level_high": 286.6199951171875,
-    "sent_at": "2026-08-25T14:33:50"
+    "level_low": 279.80999755859375,
+    "level_high": 280.3699951171875,
+    "sent_at": "2026-08-25T14:41:33"
   },
   "ALNY:fvg": {
     "ticker": "ALNY",
     "kind": "fvg",
-    "level_low": 233.9550018310547,
-    "level_high": 237.35009765625,
-    "sent_at": "2026-08-25T14:33:51"
+    "level_low": 239.8800048828125,
+    "level_high": 240.9949951171875,
+    "sent_at": "2026-08-25T14:41:37"
   },
   "AMAT:fvg": {
     "ticker": "AMAT",
@@ -705,5 +705,68 @@
     "level_low": 81.2750015258789,
     "level_high": 82.47000122070312,
     "sent_at": "2026-08-25T14:35:25"
+  },
+  "AAPL:demand_zone": {
+    "ticker": "AAPL",
+    "kind": "demand_zone",
+    "level_low": 300.57000732421875,
+    "level_high": 309.9700012207031,
+    "sent_at": "2026-08-25T14:41:28"
+  },
+  "ADP:fvg": {
+    "ticker": "ADP",
+    "kind": "fvg",
+    "level_low": 281.80999755859375,
+    "level_high": 283.69000244140625,
+    "sent_at": "2026-08-25T14:41:31"
+  },
+  "AMGN:trendline": {
+    "ticker": "AMGN",
+    "kind": "trendline",
+    "level_low": 442.51572963169644,
+    "level_high": 442.51572963169644,
+    "sent_at": "2026-08-25T14:41:40"
+  },
+  "BKR:fvg": {
+    "ticker": "BKR",
+    "kind": "fvg",
+    "level_low": 62.099998474121094,
+    "level_high": 63.209999084472656,
+    "sent_at": "2026-08-25T14:41:42"
+  },
+  "CRWV:trendline": {
+    "ticker": "CRWV",
+    "kind": "trendline",
+    "level_low": 89.92498155073686,
+    "level_high": 89.92498155073686,
+    "sent_at": "2026-08-25T14:41:45"
+  },
+  "GEHC:demand_zone": {
+    "ticker": "GEHC",
+    "kind": "demand_zone",
+    "level_low": 68.44000244140625,
+    "level_high": 73.50499725341797,
+    "sent_at": "2026-08-25T14:41:48"
+  },
+  "NVDA:fvg": {
+    "ticker": "NVDA",
+    "kind": "fvg",
+    "level_low": 210.47999572753906,
+    "level_high": 211.1199951171875,
+    "sent_at": "2026-08-25T14:41:51"
+  },
+  "PLTR:fvg": {
+    "ticker": "PLTR",
+    "kind": "fvg",
+    "level_low": 173.0,
+    "level_high": 174.9499969482422,
+    "sent_at": "2026-08-25T14:41:54"
+  },
+  "SHOP:fvg": {
+    "ticker": "SHOP",
+    "kind": "fvg",
+    "level_low": 152.1999969482422,
+    "level_high": 153.3300018310547,
+    "sent_at": "2026-08-25T14:41:56"
   }
 }
