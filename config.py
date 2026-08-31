@@ -90,7 +90,7 @@ PROXIMITY_ATR_MULT = 1.5
 
 # Hur länge (timmar) en ticker+setup-typ "tystas" efter att en notis skickats,
 # innan en ny notis för samma kombination får skickas igen.
-NOTIFICATION_COOLDOWN_HOURS = 6
+NOTIFICATION_COOLDOWN_HOURS = 20
 
 # Filen som håller koll på senaste notis per ticker+setup-typ, skriven av
 # notification_state.py. Radera filen för att nollställa alla cooldowns.
