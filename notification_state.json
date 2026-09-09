@@ -604,16 +604,16 @@
   "SNPS:fvg": {
     "ticker": "SNPS",
     "kind": "fvg",
-    "level_low": 395.989990234375,
-    "level_high": 403.5400085449219,
-    "sent_at": "2026-09-08T17:09:40"
+    "level_low": 392.8800048828125,
+    "level_high": 394.2449951171875,
+    "sent_at": "2026-09-09T22:58:53"
   },
   "STX:fvg": {
     "ticker": "STX",
     "kind": "fvg",
-    "level_low": 892.0,
-    "level_high": 920.0,
-    "sent_at": "2026-09-08T20:48:54"
+    "level_low": 895.0,
+    "level_high": 901.0300903320312,
+    "sent_at": "2026-09-09T22:58:56"
   },
   "TER:demand_zone": {
     "ticker": "TER",
