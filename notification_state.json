@@ -23,9 +23,9 @@
   "ADI:fvg": {
     "ticker": "ADI",
     "kind": "fvg",
-    "level_low": 372.67999267578125,
-    "level_high": 377.6199951171875,
-    "sent_at": "2026-09-18T22:21:31"
+    "level_low": 384.1300048828125,
+    "level_high": 385.0,
+    "sent_at": "2026-09-21T22:29:21"
   },
   "ADP:trendline": {
     "ticker": "ADP",
@@ -51,9 +51,9 @@
   "ALAB:fvg": {
     "ticker": "ALAB",
     "kind": "fvg",
-    "level_low": 289.6000061035156,
-    "level_high": 296.79998779296875,
-    "sent_at": "2026-09-17T21:00:23"
+    "level_low": 339.04998779296875,
+    "level_high": 339.510009765625,
+    "sent_at": "2026-09-21T22:29:23"
   },
   "ALNY:fvg": {
     "ticker": "ALNY",
@@ -191,9 +191,9 @@
   "CRWV:fvg": {
     "ticker": "CRWV",
     "kind": "fvg",
-    "level_low": 84.8499984741211,
-    "level_high": 87.7500991821289,
-    "sent_at": "2026-09-21T18:31:31"
+    "level_low": 84.63739776611328,
+    "level_high": 85.94999694824219,
+    "sent_at": "2026-09-21T22:29:28"
   },
   "CSCO:fvg": {
     "ticker": "CSCO",
@@ -247,9 +247,9 @@
   "FANG:demand_zone": {
     "ticker": "FANG",
     "kind": "demand_zone",
-    "level_low": 170.5500030517578,
-    "level_high": 194.75999450683594,
-    "sent_at": "2026-09-17T17:31:29"
+    "level_low": 170.10000610351562,
+    "level_high": 187.75999450683594,
+    "sent_at": "2026-09-21T22:29:30"
   },
   "FAST:fvg": {
     "ticker": "FAST",
@@ -457,9 +457,9 @@
   "NBIS:fvg": {
     "ticker": "NBIS",
     "kind": "fvg",
-    "level_low": 235.3300018310547,
-    "level_high": 236.71009826660156,
-    "sent_at": "2026-09-21T18:32:40"
+    "level_low": 226.5800018310547,
+    "level_high": 240.1999969482422,
+    "sent_at": "2026-09-21T22:29:35"
   },
   "NFLX:fvg": {
     "ticker": "NFLX",
@@ -499,9 +499,9 @@
   "PANW:fvg": {
     "ticker": "PANW",
     "kind": "fvg",
-    "level_low": 361.4700012207031,
-    "level_high": 362.95001220703125,
-    "sent_at": "2026-09-18T19:31:20"
+    "level_low": 370.0,
+    "level_high": 370.6199951171875,
+    "sent_at": "2026-09-21T22:29:37"
   },
   "PAYX:fvg": {
     "ticker": "PAYX",
@@ -576,9 +576,9 @@
   "ROST:fvg": {
     "ticker": "ROST",
     "kind": "fvg",
-    "level_low": 228.49000549316406,
-    "level_high": 229.26010131835938,
-    "sent_at": "2026-09-18T17:01:28"
+    "level_low": 231.07000732421875,
+    "level_high": 231.3699951171875,
+    "sent_at": "2026-09-21T22:29:39"
   },
   "SBUX:demand_zone": {
     "ticker": "SBUX",
@@ -611,9 +611,9 @@
   "STX:fvg": {
     "ticker": "STX",
     "kind": "fvg",
-    "level_low": 852.97998046875,
-    "level_high": 860.010009765625,
-    "sent_at": "2026-09-18T19:31:26"
+    "level_low": 849.97998046875,
+    "level_high": 892.8599853515625,
+    "sent_at": "2026-09-21T22:29:43"
   },
   "TER:demand_zone": {
     "ticker": "TER",
@@ -765,16 +765,16 @@
   "SHOP:fvg": {
     "ticker": "SHOP",
     "kind": "fvg",
-    "level_low": 126.91000366210938,
-    "level_high": 128.22000122070312,
-    "sent_at": "2026-09-18T17:01:33"
+    "level_low": 135.9199981689453,
+    "level_high": 136.2899932861328,
+    "sent_at": "2026-09-21T22:29:41"
   },
   "ADBE:fvg": {
     "ticker": "ADBE",
     "kind": "fvg",
     "level_low": 250.99989318847656,
-    "level_high": 256.6600036621094,
-    "sent_at": "2026-09-17T21:00:22"
+    "level_high": 251.57000732421875,
+    "sent_at": "2026-09-21T22:29:19"
   },
   "ADI:demand_zone": {
     "ticker": "ADI",
@@ -982,9 +982,9 @@
   "AMD:fvg": {
     "ticker": "AMD",
     "kind": "fvg",
-    "level_low": 559.9099731445312,
-    "level_high": 605.9301147460938,
-    "sent_at": "2026-09-21T18:30:57"
+    "level_low": 610.2299194335938,
+    "level_high": 614.22998046875,
+    "sent_at": "2026-09-21T22:29:25"
   },
   "DASH:trendline": {
     "ticker": "DASH",
@@ -1612,9 +1612,9 @@
   "MSFT:demand_zone": {
     "ticker": "MSFT",
     "kind": "demand_zone",
-    "level_low": 486.0,
-    "level_high": 494.5199890136719,
-    "sent_at": "2026-09-16T17:32:01"
+    "level_low": 477.1499938964844,
+    "level_high": 501.3399963378906,
+    "sent_at": "2026-09-21T22:29:33"
   },
   "NFLX:demand_zone": {
     "ticker": "NFLX",
