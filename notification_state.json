@@ -30,9 +30,9 @@
   "ADP:trendline": {
     "ticker": "ADP",
     "kind": "trendline",
-    "level_low": 274.0477570564516,
-    "level_high": 274.0477570564516,
-    "sent_at": "2026-10-12T21:35:23"
+    "level_low": 285.7849606301287,
+    "level_high": 285.7849606301287,
+    "sent_at": "2026-10-16T23:17:15"
   },
   "ADSK:fvg": {
     "ticker": "ADSK",
