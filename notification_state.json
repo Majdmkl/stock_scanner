@@ -128,9 +128,9 @@
   "BKNG:fvg": {
     "ticker": "BKNG",
     "kind": "fvg",
-    "level_low": 157.89500427246094,
-    "level_high": 158.17999267578125,
-    "sent_at": "2026-10-23T17:46:03"
+    "level_low": 160.75,
+    "level_high": 162.63999938964844,
+    "sent_at": "2026-10-24T00:18:32"
   },
   "BKR:trendline": {
     "ticker": "BKR",
@@ -219,9 +219,9 @@
   "DASH:fvg": {
     "ticker": "DASH",
     "kind": "fvg",
-    "level_low": 182.72999572753906,
-    "level_high": 183.75,
-    "sent_at": "2026-10-23T17:46:32"
+    "level_low": 185.77499389648438,
+    "level_high": 188.1300048828125,
+    "sent_at": "2026-10-24T00:18:34"
   },
   "DDOG:fvg": {
     "ticker": "DDOG",
@@ -492,16 +492,16 @@
   "ORLY:fvg": {
     "ticker": "ORLY",
     "kind": "fvg",
-    "level_low": 89.76000213623047,
-    "level_high": 89.88999938964844,
-    "sent_at": "2026-10-23T21:04:40"
+    "level_low": 91.47000122070312,
+    "level_high": 92.19000244140625,
+    "sent_at": "2026-10-24T00:18:42"
   },
   "PANW:fvg": {
     "ticker": "PANW",
     "kind": "fvg",
-    "level_low": 377.9100036621094,
-    "level_high": 387.7900085449219,
-    "sent_at": "2026-10-23T21:04:42"
+    "level_low": 341.1400146484375,
+    "level_high": 366.79998779296875,
+    "sent_at": "2026-10-24T00:18:44"
   },
   "PAYX:fvg": {
     "ticker": "PAYX",
@@ -513,9 +513,9 @@
   "PCAR:fvg": {
     "ticker": "PCAR",
     "kind": "fvg",
-    "level_low": 107.0,
-    "level_high": 107.41000366210938,
-    "sent_at": "2026-10-23T17:48:01"
+    "level_low": 108.6500015258789,
+    "level_high": 110.52999877929688,
+    "sent_at": "2026-10-24T00:18:46"
   },
   "PDD:fvg": {
     "ticker": "PDD",
@@ -576,9 +576,9 @@
   "ROST:fvg": {
     "ticker": "ROST",
     "kind": "fvg",
-    "level_low": 235.47999572753906,
-    "level_high": 236.15499877929688,
-    "sent_at": "2026-10-22T17:56:12"
+    "level_low": 228.40499877929688,
+    "level_high": 232.1999969482422,
+    "sent_at": "2026-10-24T00:18:48"
   },
   "SBUX:demand_zone": {
     "ticker": "SBUX",
@@ -604,9 +604,9 @@
   "SNPS:fvg": {
     "ticker": "SNPS",
     "kind": "fvg",
-    "level_low": 430.1199951171875,
-    "level_high": 430.6700134277344,
-    "sent_at": "2026-10-23T17:48:28"
+    "level_low": 420.8800048828125,
+    "level_high": 424.2099914550781,
+    "sent_at": "2026-10-24T00:18:50"
   },
   "STX:fvg": {
     "ticker": "STX",
@@ -625,9 +625,9 @@
   "TMUS:fvg": {
     "ticker": "TMUS",
     "kind": "fvg",
-    "level_low": 150.35000610351562,
-    "level_high": 151.13999938964844,
-    "sent_at": "2026-10-23T17:48:35"
+    "level_low": 154.75,
+    "level_high": 155.75,
+    "sent_at": "2026-10-24T00:18:51"
   },
   "TRI:fvg": {
     "ticker": "TRI",
@@ -641,7 +641,7 @@
     "kind": "demand_zone",
     "level_low": 354.04998779296875,
     "level_high": 374.1199951171875,
-    "sent_at": "2026-10-22T21:16:27"
+    "sent_at": "2026-10-24T00:18:53"
   },
   "TTWO:fvg": {
     "ticker": "TTWO",
@@ -660,9 +660,9 @@
   "VRTX:fvg": {
     "ticker": "VRTX",
     "kind": "fvg",
-    "level_low": 517.8400268554688,
-    "level_high": 532.5499877929688,
-    "sent_at": "2026-10-23T00:26:42"
+    "level_low": 533.780029296875,
+    "level_high": 538.27001953125,
+    "sent_at": "2026-10-24T00:18:55"
   },
   "WBD:fvg": {
     "ticker": "WBD",
@@ -781,14 +781,14 @@
     "kind": "demand_zone",
     "level_low": 341.32000732421875,
     "level_high": 385.4599914550781,
-    "sent_at": "2026-10-22T21:15:46"
+    "sent_at": "2026-10-24T00:18:27"
   },
   "ASML:demand_zone": {
     "ticker": "ASML",
     "kind": "demand_zone",
-    "level_low": 1441.31005859375,
-    "level_high": 1653.530029296875,
-    "sent_at": "2026-10-23T17:45:56"
+    "level_low": 1382.75,
+    "level_high": 1487.010009765625,
+    "sent_at": "2026-10-24T00:18:28"
   },
   "CMCSA:fvg": {
     "ticker": "CMCSA",
@@ -914,7 +914,7 @@
     "kind": "demand_zone",
     "level_low": 366.0,
     "level_high": 414.5,
-    "sent_at": "2026-10-22T21:15:56"
+    "sent_at": "2026-10-24T00:18:30"
   },
   "CRWV:demand_zone": {
     "ticker": "CRWV",
@@ -933,9 +933,9 @@
   "MELI:fvg": {
     "ticker": "MELI",
     "kind": "fvg",
-    "level_low": 1840.25,
-    "level_high": 1846.969970703125,
-    "sent_at": "2026-10-23T17:47:27"
+    "level_low": 1813.989990234375,
+    "level_high": 1885.3299560546875,
+    "sent_at": "2026-10-24T00:18:40"
   },
   "MRVL:trendline": {
     "ticker": "MRVL",
@@ -1773,9 +1773,9 @@
   "DDOG:demand_zone": {
     "ticker": "DDOG",
     "kind": "demand_zone",
-    "level_low": 237.6699981689453,
-    "level_high": 273.7298889160156,
-    "sent_at": "2026-10-23T17:46:34"
+    "level_low": 243.6300048828125,
+    "level_high": 269.1000061035156,
+    "sent_at": "2026-10-24T00:18:35"
   },
   "GOOG:trendline": {
     "ticker": "GOOG",
@@ -1801,9 +1801,9 @@
   "KLAC:demand_zone": {
     "ticker": "KLAC",
     "kind": "demand_zone",
-    "level_low": 128.50399780273438,
-    "level_high": 145.6999969482422,
-    "sent_at": "2026-10-23T17:47:14"
+    "level_low": 132.1020050048828,
+    "level_high": 149.5,
+    "sent_at": "2026-10-24T00:18:39"
   },
   "NBIS:trendline": {
     "ticker": "NBIS",
